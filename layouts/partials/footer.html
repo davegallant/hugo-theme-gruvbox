@@ -21,8 +21,8 @@
 {{ end }}
 
 {{/* prettier-ignore-start */}}
-<script src="{{ $bundle.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $bundle.Data.Integrity }}"{{ end }}></script>
-<script src="{{ $flexsearch.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $flexsearch.Data.Integrity }}"{{ end }}></script>
+<script src="{{ $bundle.RelPermalink }}"></script>
+<script src="{{ $flexsearch.RelPermalink }}"></script>
 {{/* prettier-ignore-end */}}
 
 <!-- Extensibility -->
