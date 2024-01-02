@@ -1,4 +1,4 @@
-module github.com/schnerring/hugo-theme-gruvbox
+module github.com/davegallant/hugo-theme-gruvbox
 
 go 1.21
 
